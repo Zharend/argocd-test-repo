@@ -18,7 +18,7 @@ spec:
                   kubernetes.io/environment: "{{path[1]}}"
   template:
     metadata:
-      name: '{{path[1]}}-{{path.basename}}'
+      name: '{{path[1]}}-{{name}}-{{path.basename}}'
       namespace: cre-core
     spec:
       project: default
