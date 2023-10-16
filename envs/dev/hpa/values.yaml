@@ -1,0 +1,3 @@
+app:
+  recommender:
+    replicaCount: 2

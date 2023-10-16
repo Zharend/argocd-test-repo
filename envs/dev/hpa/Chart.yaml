@@ -1,0 +1,10 @@
+apiVersion: v2
+appVersion: v3.0.1
+dependencies:
+  - alias: app
+    name: vpa
+    repository: oci://ghcr.io/zharend
+    version: 3.0.1
+name: vpa
+type: application
+version: 3.0.1
