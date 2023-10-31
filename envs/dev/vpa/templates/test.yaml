@@ -13,7 +13,7 @@ spec:
         image: alpine:3.18.4
         command:
           - "exit"
-          - "1"
+          - "0"
       restartPolicy: Never
   backoffLimit: 2
 
