@@ -11,9 +11,7 @@ spec:
       containers:
       - name: postsync-test
         image: alpine:3.18.4
-        command:
-          - "exit"
-          - "0"
+        command: ["exit", "0"]
       restartPolicy: Never
   backoffLimit: 2
 
